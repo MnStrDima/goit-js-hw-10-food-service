@@ -33,5 +33,6 @@ function setDarkTheme() {
   }
   if (localStorage.getItem('theme') === Theme.LIGHT) {
     themeSwitcherRef.checked = false;
+    bodyRef.classList.add(Theme.LIGHT);
   }
 }
